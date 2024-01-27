@@ -14,7 +14,7 @@ int main()
         for(int j=0;j<=i;j++)
         {
                 cout<<a;
-                a--;5
+                a--;
         }
         cout<<endl;
     }
