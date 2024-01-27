@@ -17,6 +17,10 @@ int main()
     for(int i=0;i<n;i++)
     {
         d=0;
+        for(int j=0;j<n-i;j++)
+        {
+            cout<<" ";
+        }
         for(int j=0;j<=i;j++)
         {
             a=fact(i);
@@ -31,6 +35,7 @@ int main()
             d=(float)a/(b*c);
             }
             cout<<d;
+            cout<<" ";
         }
         cout<<endl;
     }
