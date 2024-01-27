@@ -22,7 +22,8 @@ int main() {
         num=num/16;
     }
     cout<<"0x";
-    for(int j=i-1;j>=0;j--)
+    i--;
+    for(int j=i;j>=0;j--)
     {
         cout<<b[j];
     }
