@@ -47,7 +47,7 @@ int add(int a,int b)
     {
         if(pvc==1)
         {
-            if(a%2==0)
+            if(a%2==1)
             {
             ans=ans*10+0;
             pvc=1;
@@ -59,26 +59,26 @@ int add(int a,int b)
         }
         else{
             ans=ans*10+(a%2);
-            a=a/2;
+            a=a/10;
         }
     }
    while(b>0)
     {
-        if(pvc=1)
+        if(pvc==1)
         {
             if(b%2==0)
             {
-            ans=ans*10+0;
-            pvc=1;
-            }
-            else{
             ans=ans*10+1;
             pvc=0;
+            }
+            else{
+            ans=ans*10+0;
+            pvc=1;
         }
         }
         else{
             ans=ans*10+(b%2);
-            a=a/2;
+            b/=2;
         }
     }
     if(pvc==1 )
