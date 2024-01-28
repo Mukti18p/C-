@@ -38,3 +38,4 @@ int main()
     cin>>m;
     cout<<search(n,arr,m);
 }
+//binary search
