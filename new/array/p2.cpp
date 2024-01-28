@@ -17,7 +17,7 @@ void max(int n,int arr[])
 }
 int main()
 {
-    int i,j,n;
+    int i,n;
     cin>>n;
     int arr[n];
     for(i=0;i<n;i++)
