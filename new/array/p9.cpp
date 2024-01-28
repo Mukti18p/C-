@@ -12,7 +12,7 @@ int main()
     int n;
     cin>>n;
     int arr[n],brr[n],k=0;
-    int i=0,j=0;
+    int i=0;
     for(i=0;i<n;i++)
     {
         cin>>arr[i];
