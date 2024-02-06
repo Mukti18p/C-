@@ -10,9 +10,11 @@ bool pairsum(int n,int arr[],int k)
             if(arr[i]+arr[j]==k)
             {
                 cout<<i<<" "<<j<<endl;
+                return true;
             }
         }
     }
+
 }
 int main()
 {
