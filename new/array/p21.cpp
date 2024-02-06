@@ -28,7 +28,7 @@ int main()
 {
     int n=8;
    int arr[]={2,4,7,11,14,16,20,21};
-   int k=31;
+   int k=27;
     pairsum(n,arr,k);
   
 }
