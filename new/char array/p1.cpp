@@ -1,10 +1,12 @@
 #include<iostream>
 
 using namespace std;
+
 int main()
 {
-    char a[10];
+    char a[100];
     cin>>a;
+
     cout<<a;
     int i,j=0;
     i=0;
