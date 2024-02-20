@@ -33,6 +33,7 @@ int main()
     if(count==2)
     {
         cout<<"not palindrome";
+        
     }
     else
     {
