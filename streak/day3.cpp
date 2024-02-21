@@ -6,6 +6,7 @@
 using namespace std;
 
 
+
 int main() {
     unsigned long long int n,c=0;
     cin>>n;
