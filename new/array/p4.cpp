@@ -11,8 +11,7 @@ int large(int n,int arr[])
                         m=arr[i];
                     }
                     else if(fm!=m && fm<arr[i])
-                    {
-                           
+                    { 
                             fm=arr[i];
                     }
             }
