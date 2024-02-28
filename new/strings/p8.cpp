@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    int *p;
-    int n;
-    cin>>n;
+    string s;
+    getline(cin,s);
+    int n=s.length();
     
 }
