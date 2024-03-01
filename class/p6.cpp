@@ -2,7 +2,6 @@
 #include <cstring>
 #include <limits>
 using namespace std;
-
 class abc {
 private:
     int x;
