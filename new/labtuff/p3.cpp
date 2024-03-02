@@ -3,13 +3,12 @@
 #include <limits>
 using namespace std;
 
-void swap(char **p, char **p1) // Change the function signature to accept pointers to pointers
+void swap(char **p, char **p1) 
 {
-    char *temp = *p; // Change to a proper pointer initialization
-    *p = *p1; // Swap pointers, not the strings
-    *p1 = temp; // Swap pointers, not the strings
+    char *temp = *p; 
+    *p = *p1; 
+    *p1 = temp; 
 }
-
 void sorting(char **ip, int n)
 {
     for (int i = 0; i < n; i++)
@@ -18,7 +17,7 @@ void sorting(char **ip, int n)
         {
             if (strcmp(ip[i], ip[j]) > 0 && *ip[i] != *ip[j] - 32)
             {
-                swap(&ip[i], &ip[j]); // Pass pointers to pointers
+                swap(&ip[i], &ip[j]); 
             }
         }
     }
