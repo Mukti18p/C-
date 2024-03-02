@@ -3,7 +3,6 @@
 #include<limits>
 class abc
 {
-    
 };
 int main()
 {
