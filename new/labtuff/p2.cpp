@@ -5,9 +5,7 @@
 #include <algorithm>
 using namespace std;
  
- 
  //Time complexity problem still not solvve
-
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
     int n;
