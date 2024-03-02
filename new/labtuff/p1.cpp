@@ -13,7 +13,6 @@ typedef struct{
 
 // use varibale name insted of tagname in typedef structure
 
-
 int main()
 {
     int n;
