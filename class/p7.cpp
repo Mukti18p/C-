@@ -39,5 +39,10 @@ int main()
        ip[i]=new abc[2];
     }
     set(ip,n);
-
+   
+ 
+  
+  
+    
 }
+
