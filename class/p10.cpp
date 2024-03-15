@@ -9,6 +9,7 @@ class abc{
             x=z;
         }
         abc(abc *p){
+
             v = p->v;
             x = p->x;
 
@@ -25,3 +26,5 @@ int main()
     b.display();
 
 }
+// copy condstructor only reference nu j call thay compiler nu
+//copy constructor pointer nu deafult na call thay e apvu pade user thi
