@@ -25,7 +25,6 @@ int main()
             m++;
         }
         else if(i==len-1 && s1.at(i) == s1.at(i-1))
-
         {
             m++;
         }
