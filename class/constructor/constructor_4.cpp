@@ -24,7 +24,6 @@ void Complex::print()
     std::cout << re << " + j";
     std::cout << im << std::endl;
 }
-
 int main()
 {
     Complex c1(1.1, 1.1);
