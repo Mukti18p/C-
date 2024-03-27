@@ -4,10 +4,9 @@ class Test
     const int t;
     int i;
 public: 
-    Test(int num)
+    Test(int num):t(num)
     {   
-        // error: assignment of read-only member ‘Test::t’
-        t = num;
+        // error:  t = num;
         i = num;
     }
     void print();
