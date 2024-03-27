@@ -1,5 +1,6 @@
 #include<iostream>
 using std::cout;
+using std::endl;
 using std::endl;class Test {
     const int t;
     int i;
