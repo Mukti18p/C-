@@ -12,7 +12,8 @@ public:
     Test(int i = 0) {
         this->i = i;
     }
-    void print() {
+    void print() 
+    {
         cout << i << endl;
     }
 };

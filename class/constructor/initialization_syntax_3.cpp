@@ -5,7 +5,8 @@ class Test {
     int i;
     float j;
 public:
-    Test(int x = 0, int y =0) {
+    Test(int x = 0, int y =0) 
+    {
         cout << "Constructor called\n";
         i = x;
         j = y;

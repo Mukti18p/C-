@@ -1,7 +1,6 @@
 #include<iostream>
 using std::cout;
-using std::endl;
-class Test {
+using std::endl;class Test {
     const int t;
     int i;
 public:
