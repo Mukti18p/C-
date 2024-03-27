@@ -140,7 +140,8 @@ void c::swap(int in , int kn)
     }
 }
 
-void c::divide(){
+void c::divide()
+{
     int n = getnum();
     int m=0,mn=0,count=0,in,jn,kn,i,j,k;
     for(i=0;i<n;i++)
