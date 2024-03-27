@@ -37,11 +37,9 @@ void fun(Str &ln)
 int main()
 {
     Str first_name("Jalaj");
-    const Str middle_name("Pandavkumar");
+    const Str middle_name("Pandavkumar");//doubt
     Str *last_name = new Str("Patel");
     first_name.print();
-    
-    
     
     middle_name.print();
     fun(*last_name);
