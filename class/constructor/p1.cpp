@@ -10,9 +10,8 @@ class complex{
         cout<<"Default"<<endl;
         count++;
         cout<<"Count :"<<count<<endl;
-
-        re =i;
-        img =j;
+        re = i;
+        img = j;
     }
     ~complex(){
         count--;
@@ -22,8 +21,6 @@ class complex{
     complex(complex &);
     friend complex add(complex c1,complex c2);
     void display (complex );
-
-
 
 };
 int complex :: count =0;
@@ -52,13 +49,10 @@ int main()
     complex c1(1,2);
     complex c2(3,4);
     complex c3 = {c2}; //copy constructor
-    complex c4= (c3);
+    complex c4= (c3);//doubt
     c3.display(c3);
     c4.display(c4);
     c4 = add(c1,c2);
     c4.display(c4);
     return 0;
-
-
-
 }
