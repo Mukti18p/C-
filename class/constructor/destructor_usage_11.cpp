@@ -38,7 +38,7 @@ int main()
 {
     Str first_name("Jalaj");
     const Str middle_name("Pandavkumar");//doubt
-    Str *last_name = new Str("Patel");
+    Str *last_name = new Str("Patel");//doubt
     first_name.print();
     
     middle_name.print();
