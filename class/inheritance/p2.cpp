@@ -57,7 +57,6 @@ class B{
     int getmarks1(int ,int );
     void getdata1()
     {
-       
         p1=new int*[num1];
         for(int i=0;i<num1;i++)
         {
@@ -136,8 +135,8 @@ void c::swap(int in , int kn)
     for(int i=0;i<3;i++)
     {
         n=p[in][i];
-        p[in][i]=p[kn][i];
-        p[kn][i]=n;
+        p[in][i]=p1[kn][i];
+        p1[kn][i]=n;
     }
 }
 
@@ -150,12 +149,12 @@ void c::divide(){
         in =0;
         kn=0;
         mn=0;
-        cout<<"Lets start the process: "<<endl;
+        // cout<<"Lets start the process: "<<endl;
             for( k=0;k<n;k++)
             {
                 for(j=0;j<3;j++)
                 {
-                    if(p[i][j]<p[k][j])
+                    if(p[i][j]<p1[k][j])
                     {
                         count++;
                     }
@@ -186,8 +185,10 @@ int main()
 {
    c c1;
    c1.getdata();
+   cout<<"class A :\n";
    c1.putdata();
    c1.getdata1();
+   cout<<"class B :\n";
    c1.putdata1();
    for(int j=0;j<3;j++)
    {
@@ -203,6 +204,7 @@ int main()
    }
    cout<<"Now i want to divide this class in  two groups based on marks."<<endl;
     cout<<"After divide"<<endl;
+    c1.divide();
     c1.putdata();
     c1.putdata1();
 }
