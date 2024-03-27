@@ -1,5 +1,4 @@
 #include<iostream> 
-  
 class Test
 { 
     const int t;
