@@ -121,47 +121,21 @@ public:
         }
         return sum / n;
     }
-
+    void swap(int in,int kn)
+    {
+        int temp = p[in][0];
+        p[in][0]=p1[kn][0];
+        p1[kn][0]=temp;
+        temp = p[in][1];
+        p[in][1]=p1[kn][1];
+        p1[kn][1]=temp;
+        temp = p[in][2];
+        p[in][2]=p1[kn][2];
+        p1[kn][2]=temp;
+    }
     void divide()
     {
-        int n = getNum();
-        int m = 0, mn = 0, count = 0, in = 0, jn = 0, kn = 0, i, j, k;
-        for (i = 0; i < n; i++)
-        {
-            count = 0;
-            in = 0;
-            kn = 0;
-            mn = 999;
-            for (k = 0; k < n; k++)
-            {
-                for (j = 0; j < 3; j++)
-                {
-                    if (getMarks(i, j) < getMarks1(k, j))
-                    {
-                        count++;
-                    }
-                }
-                if (mn > count && mn != 3)
-                {
-                    mn = count;
-                    in = i;
-                    kn = k;
-                }
-                else if (mn == 3)
-                {
-                    swap(in, kn);
-                    break;
-                }
-                else
-                {
-                    continue;
-                }
-            }
-                        if (k==n-1)
-            {
-                swap(in,kn);
-            }
-        }
+        //doubt
     }
 };
 
