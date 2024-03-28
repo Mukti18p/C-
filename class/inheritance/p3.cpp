@@ -138,7 +138,6 @@ public:
         //doubt
     }
 };
-
 int main()
 {
     C c1;
